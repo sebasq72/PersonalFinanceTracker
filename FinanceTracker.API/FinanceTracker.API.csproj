@@ -22,4 +22,10 @@
     <ProjectReference Include="..\FinanceTracker.Data\FinanceTracker.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
 </Project>
